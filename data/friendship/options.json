@@ -1,0 +1,12 @@
+{
+  "people": 100,
+  "locations": 10,
+  "friendshipHigh": 0.85,
+  "friendshipLow": 0.15,
+  "similarityMeanHigh": 0.8,
+  "similarityVarianceHigh": 0.1,
+  "similarityMeanLow": 0.2,
+  "similarityVarianceLow": 0.1,
+  "seed": 4,
+  "name": "friendship"
+}
