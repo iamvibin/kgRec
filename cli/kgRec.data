@@ -1,0 +1,18 @@
+predicates:
+   Actor/2: closed
+   Genre/2: closed
+   Director/2: closed
+   Blocking/2: closed
+   Recommend/2: open
+observations:
+   Actor: ../data/kgRec/actor_obs.txt
+   Genre: ../data/kgRec/genre_obs.txt
+   Recommend: ../data/kgRec/watched_obs.txt
+   Blocking: ../data/kgRec/blocking_obs.txt
+   Director: ../data/kgRec/director_obs.txt
+
+targets:
+   Recommend: ../data/kgRec/recommend_target.txt
+
+truth:
+   Recommend: ../data/kgRec/recommend_truth.txt
