@@ -1,5 +1,5 @@
 10: Recommend(U, M1) & Director(M1, D) & Director(M2, D) & M1!=M2 & Blocking(U, M1) & Blocking(U, M2) -> Recommend(U, M2) ^2
 10: Recommend(U, M1) & Actor(M1, A) & Actor(M2, A) & M1!=M2 & Blocking(U, M1) & Blocking(U, M2) -> Recommend(U, M2) ^1
 10: Recommend(U, M1) & Genre(M1, G) & Genre(M2, G) & M1!=M2 & Blocking(U, M1) & Blocking(U, M2) -> Recommend(U, M2) ^1
-20: Recommend(U, M1) & Genre(M1, G) & Genre(M2, G) & Actor(M1, A) & Actor(M2, A) & Director(M1, D) & Director(M2, D) & M1!=M2 & Blocking(U, M1) & Blocking(U, M2)-> Recommend(U, M2) ^1
+//20: Recommend(U, M1) & Genre(M1, G) & Genre(M2, G) & Actor(M1, A) & Actor(M2, A) & Director(M1, D) & Director(M2, D) & M1!=M2 & Blocking(U, M1) & Blocking(U, M2)-> Recommend(U, M2) ^1
 // Negative prior.
